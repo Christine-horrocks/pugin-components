@@ -7,13 +7,16 @@
           "name": "list__generic",
           "data": {
             "type": "ul",
-            "display": {
+            "display": [
+            {
+              "name": "partials__display",
               "data": [
                 {
                   "component": "list"
                 }
               ]
-              },
+              }
+            ],
             "contents": [
               {
                 "content": "shared.footer.current-website"

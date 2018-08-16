@@ -2,8 +2,8 @@
 
 <a href="{data.link}"
   {?data.label}aria-label="{@t key="{data.label}" /}"{/data.label}
-  {?data.display}
-    {>"components__display" data=data /}
+  {#data.display}
+    {>"components__{name}" data=data /}
   {/data.display}
   {?data.selector}id="{data.selector}"{/data.selector}
   >

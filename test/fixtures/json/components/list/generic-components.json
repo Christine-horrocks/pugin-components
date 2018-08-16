@@ -2,14 +2,17 @@
     "name": "list__generic",
     "data": {
         "type": "ol",
-        "display": {
-            "data": [
-              {
-                "component": "list",
-                "variant": "block"
-              }
-            ]
-          },
+        "display": [
+          {
+            "name": "partials__display",
+              "data": [
+                {
+                  "component": "list",
+                  "variant": "block"
+                }
+              ]
+            }
+        ] ,
         "components": [
           {
               "name": "card__search__search-result",
@@ -18,7 +21,7 @@
                   "url": "some-url",
                   "hints": [
                     {
-                      "name": "hint",
+                      "name": "partials__hint",
                       "data": {
                         "display": {
                           "data": [

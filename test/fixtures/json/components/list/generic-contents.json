@@ -2,13 +2,16 @@
   "name": "list__generic",
   "data": {
     "type": "ul",
-    "display": {
-      "data": [
-        {
-          "component": "list"
-        }
-      ]
-      },
+    "display": [
+      {
+        "name": "partials__display",
+        "data": [
+          {
+            "component": "list"
+          }
+        ]
+      }
+    ],
     "contents": [
       {
         "content": "shared.footer.current-website"
