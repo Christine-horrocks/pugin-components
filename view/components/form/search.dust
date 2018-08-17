@@ -13,9 +13,7 @@
 
       {! This component should be an icon. !}
 
-      {#data.components}
-        {>"components__{.name}" name=name data=data/}
-      {/data.components}
+      {>"components__partials__component-renderer" components=data.components /}
     </button>
   </div>
 </form>

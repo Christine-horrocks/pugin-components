@@ -5,7 +5,5 @@
     {>"components__{.name}" data=data /}
   {/data.display}
 >
-  {#data.components}
-      {>"components__{.name}" name=name data=data/}
-  {/data.components}
+  {>"components__partials__component-renderer" components=data.components /}
 </div>
