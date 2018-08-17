@@ -5,9 +5,9 @@
   <div class="container">
 
     {! This component should only be used if wanted at the top of the main section. !}
-    
+
     {#data.components}
-      {>"components__{name}" name=name data=data/}
+      {>"components__{.name}" name=name data=data/}
     {/data.components}
   </div>
 </div>

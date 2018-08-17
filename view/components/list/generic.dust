@@ -2,7 +2,7 @@
 
 <{data.type} {~s}
   {#data.display}
-    {>"components__{name}" data=data /}
+    {>"components__{.name}" data=data /}
   {/data.display}
 >
 

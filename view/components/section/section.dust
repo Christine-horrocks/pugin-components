@@ -5,12 +5,12 @@
     id="content"
   {/data.content-flag}
   {#data.display}
-    {>"components__{name}" data=data /}
+    {>"components__{.name}" data=data /}
   {/data.display}
 >
   <div class="container">
     {#data.components}
-      {>"components__{name}" name=name data=data/}
+      {>"components__{.name}" name=name data=data/}
     {/data.components}
   </div>
 </section>

@@ -2,16 +2,12 @@
   "name": "link",
   "data": {
     "link": "/",
-    "display": [
-      {
-        "name": "partials__display",
-        "data": [
-        {
-          "component": "uk_parliament"
-        }
-        ]
-      }
-    ],
+    "display": {
+      "name": "partials__display",
+      "data": [{
+        "component": "uk_parliament"
+      }]
+    },
     "label": "shared.header.label",
     "content": "Barb"
   }

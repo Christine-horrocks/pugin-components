@@ -10,7 +10,7 @@
       {! This takes an array of objects, so can render multiple hints. !}
 
       {#data.hints}
-        <li>{>"components__{name}" data=data /}</li>
+        <li>{>"components__{.name}" data=data /}</li>
       {/data.hints}
       <li class="url">{data.short-url}</li>
       </ul>

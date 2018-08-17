@@ -2,20 +2,15 @@
   "name": "list__generic",
   "data": {
     "type": "ul",
-    "display": [
-      {
-        "name": "partials__display",
-        "data": [
-          {
-            "component": "list"
-          }
-        ]
-      }
-    ],
-    "contents": [
-      {
+    "display": {
+      "name": "partials__display",
+      "data": [{
+        "component": "list"
+      }]
+    },
+    "contents": [{
         "content": "shared.footer.current-website"
-        },
+      },
       {
         "content": "shared.footer.cookie-policy",
         "data": {
@@ -23,7 +18,7 @@
         }
       },
       {
-        "content":"shared.footer.data-protection-privacy"
+        "content": "shared.footer.data-protection-privacy"
       }
     ]
   }

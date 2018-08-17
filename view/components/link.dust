@@ -3,7 +3,7 @@
 <a href="{data.link}"
   {?data.label}aria-label="{@t key="{data.label}" /}"{/data.label}
   {#data.display}
-    {>"components__{name}" data=data /}
+    {>"components__{.name}" data=data /}
   {/data.display}
   {?data.selector}id="{data.selector}"{/data.selector}
   >
