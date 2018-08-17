@@ -12,7 +12,6 @@
 
   {>"components__partials__component-renderer" components=data.components /}
 
-
   {! The @t helper will pull a translation from the locales file when it finds a valid translation key, otherwise it will simply render the string. !}
 
   {?data.content}
