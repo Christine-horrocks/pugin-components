@@ -2,8 +2,8 @@
 {! An optional selector can be added. !}
 
 <div{~s}
-  {?data.display}
-    {>"components__display" data=data /}
+  {#data.display}
+    {>"components__{.name}" data=data /}
   {/data.display}
   {?data.selector}id="{data.selector}"{/data.selector}
 >
