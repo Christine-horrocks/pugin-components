@@ -1,0 +1,9 @@
+<a 
+  {#data.display}
+    {>"components__{.name}" data=data /}
+  {/data.display}{~s}
+  {?data.download}
+    download{~s}
+  {/data.download}
+  href="{data.link}">{data.text}
+</a>

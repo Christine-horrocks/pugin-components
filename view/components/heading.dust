@@ -1,5 +1,8 @@
 
 <h{data.size}>
+  {?data.link}
+    <a href="{data.link}">
+  {/data.link}
 
   {! This translation sections allows translation keys to be passed in along with data from the back end. !}
 
@@ -12,4 +15,8 @@
   {#data.content}
     {@t key="{.|s}" /}
   {/data.content}
+
+  {?data.link}
+    </a>
+  {/data.link}
 </h{data.size}>

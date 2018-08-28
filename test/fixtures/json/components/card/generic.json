@@ -1,0 +1,62 @@
+{
+  "name": "card__generic",
+  "data": {
+    "card-type": "large",
+    "components":[
+      {
+        "name": "partials__figure",
+        "data": {
+          "display": {
+            "name": "partials__display",
+            "data": [
+              {
+                "component": "avatar",
+                "variant": "round"
+              }
+            ]
+          },
+          "link": "https://DianneAbbot/image.com",
+          "aria-hidden": true,
+          "tab-index": true,
+          "source-media": "(min-width: 480px)",
+          "source-srcset": "https://parliament.uk/photo and other things",
+          "source-srcset-2": "https://yet-anotherphoto.com",
+          "alt-text": "Add translation key here!!",
+          "alt-data": "Dianne Abbott",
+          "source": "https://and-yet-another-photo.uk"
+        }
+      },
+      {
+          "name": "heading",
+          "data": {
+              "content": ["Dianne Abbot"],
+              "size": 2,
+              "link": "https://www.boop.com"
+          }
+      },
+      {
+          "name": "paragraph",
+          "data": [
+            {
+              "content":"Here is a picture of Dianne Abbott"
+              }
+          ]
+      },
+      {
+        "name": "partials__link-button",
+        "data": {
+          "download": true,
+          "link": "https://www.cool.com",
+          "text": "Cool bananas"
+        }
+      },
+      {
+        "name": "partials__count",
+        "data": {
+          "count-number": 63,
+          "count-context": "Devs"
+        }
+      }
+    ]
+  }
+}

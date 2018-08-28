@@ -1,0 +1,27 @@
+{
+  "name": "partials__figure",
+  "data": {
+    "display": {
+      "name": "partials__display",
+      "data": [
+        {
+          "component": "avatar",
+          "variant": "round"
+        }
+      ]
+    },
+    "link": "https://DianneAbbot/image.com",
+    "aria-hidden": true,
+    "tab-index": true,
+    "source-media": "(min-width: 480px)",
+    "source-srcset": "https://parliament.uk/photo and other things",
+    "source-srcset-2": "https://yet-anotherphoto.com",
+    "alt-text": "Add translation key here!!",
+    "alt-data": "Dianne Abbott",
+    "source": "https://and-yet-another-photo.uk",
+    "figcaption": {
+      "content": "ADD A TRANSLATION KEY",
+      "data": "Dianne Abbott"
+    }
+  }
+}

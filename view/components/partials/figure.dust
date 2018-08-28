@@ -1,0 +1,25 @@
+<figure
+  {#data.display}
+    {~s}{>"components__{.name}" data=data /}
+  {/data.display}>
+  <a{~s}
+    href="{data.link}"
+    {?data.aria-hidden}
+      {~s}aria-hidden="true"
+    {/data.aria-hidden}
+    {?data.tab-index}
+      {~s}tabindex="-1"
+    {/data.tab-index}
+    >
+    <picture>
+      <source media="{data.source-media}" srcset="{data.source-srcset}">
+      <source srcset="{data.source-srcset-2}">
+      <img alt="{@t key="{data.alt-image|s}" data=data /}" src="{data.source}">
+    </picture>
+  </a>
+  {#data.figcaption}
+    <figcaption>
+      {@t key="{content|s}" data=data /}
+    </figcaption>
+  {/data.figcaption}
+</figure>

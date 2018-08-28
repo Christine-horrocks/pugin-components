@@ -1,0 +1,11 @@
+<div class="card{?data.card-type}--{data.card-type}{/data.card-type}">
+  {>"components__partials__figure" data=data /}
+  <div class="card__details">
+    {>"components__partials__heading" data=data /}
+    {>"components__partials__paragraph" data=data /}
+    {>"components__partials__button" data=data /}
+  </div>
+  {#data.components.partials__count}
+    {>"components__partials__count" data=data /}
+  {/data.components.partials__count}
+</div>
