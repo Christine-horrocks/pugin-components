@@ -14,7 +14,7 @@
     <picture>
       <source media="{data.source-media}" srcset="{data.source-srcset}">
       <source srcset="{data.source-srcset-2}">
-      <img alt="{@t key="{data.alt-image|s}" data=data /}" src="{data.source}">
+      <img alt="{@t key="{data.alt-text|s}" data=data /}" src="{data.source}">
     </picture>
   </a>
   {#data.figcaption}

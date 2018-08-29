@@ -1,11 +1,19 @@
 <div class="card{?data.card-type}--{data.card-type}{/data.card-type}">
-  {>"components__partials__figure" data=data /}
+  {#data.figure}
+    {>"components__partials__figure" data=data /}
+  {/data.figure}
   <div class="card__details">
-    {>"components__partials__heading" data=data /}
-    {>"components__partials__paragraph" data=data /}
-    {>"components__partials__button" data=data /}
+    {#data.heading}
+      {>"components__heading" data=data /}
+    {/data.heading}
+    {#data.paragraph}
+      {>"components__paragraph" data=data /}
+    {/data.paragraph}
+    {#data.link-button}
+      {>"components__partials__link-button" data=data /}
+    {/data.link-button}
   </div>
-  {#data.components.partials__count}
+  {#data.count}
     {>"components__partials__count" data=data /}
-  {/data.components.partials__count}
+  {/data.count}
 </div>
