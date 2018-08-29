@@ -16,12 +16,8 @@
     "source-media": "(min-width: 480px)",
     "source-srcset": "https://parliament.uk/photo and other things",
     "source-srcset-2": "https://yet-anotherphoto.com",
-    "alt-text": "Add translation key here!!",
+    "alt-text": "Here is a picture of Dianne Abbot",
     "alt-data": "Dianne Abbott",
-    "source": "https://and-yet-another-photo.uk",
-    "figcaption": {
-      "content": "ADD A TRANSLATION KEY",
-      "data": "Dianne Abbott"
-    }
+    "source": "https://and-yet-another-photo.uk"
   }
 }

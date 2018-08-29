@@ -12,9 +12,13 @@
     {/data.tab-index}
     >
     <picture>
-      <source media="{data.source-media}" srcset="{data.source-srcset}">
-      <source srcset="{data.source-srcset-2}">
-      <img alt="{@t key="{data.alt-text|s}" data=data /}" src="{data.source}">
+      {#data.source-media}
+        <source media="{data.source-media}" srcset="{data.source-srcset}">
+      {/data.source-media}
+      {#data.source-srcset-2}
+        <source srcset="{data.source-srcset-2}">
+      {/data.source-srcset-2}
+      <img alt="{@t key="{data.alt-text|s}" data=alt-data /}" src="{data.source}">
     </picture>
   </a>
   {#data.figcaption}

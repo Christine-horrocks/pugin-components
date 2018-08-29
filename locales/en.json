@@ -51,5 +51,8 @@
 		"guides": "Guides",
 		"guide-to-procedure": "MPs Guide to Procedure",
 		"find-guidance": "Guidance on House of Commons procedure for MPs and their staff."
+	},
+	"image": {
+		"image-of": "This is an image of {{image-name}}"
 	}
 }
