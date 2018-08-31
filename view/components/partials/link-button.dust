@@ -1,7 +1,7 @@
-<a 
+<a{~s}
   {#data.display}
-    {>"components__{.name}" data=data /}
-  {/data.display}{~s}
+    {>"components__{.name}" data=data /}{~s}
+  {/data.display}
   {?data.download}
     download{~s}
   {/data.download}
