@@ -1,5 +1,8 @@
 
 <h{data.size}>
+
+  {! this section allows for the heading to be made into a link. !}
+
   {?data.link}
     <a href="{data.link}">
   {/data.link}

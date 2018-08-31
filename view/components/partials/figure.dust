@@ -1,3 +1,6 @@
+{! This figure partial requires an image source, image text and a link for the href. !}
+{! It can be given the options of a display partial, aria-hidden, tab index, 2 source media and a figcaption. !}
+
 <figure
   {#data.display}
     {~s}{>"components__{.name}" data=data /}
