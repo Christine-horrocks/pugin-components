@@ -3,4 +3,5 @@
 
 {#data}
   <p>{@t key="{content|s}" data=data /}</p>
+  {! <p>{i18next.('shared.meta.title') /} !}
 {/data}
